@@ -9,6 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.7",
+    "@mui/styled-engine-sc": "^6.4.6",
+    "@mui/styles": "^6.4.7",
+    "@mui/system": "^6.4.7",
     "next": "15.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -16,7 +22,10 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@types/node": "^20",
+    "@types/estree": "^1.0.6",
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^20.17.24",
+    "@types/parse-json": "^4.0.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
